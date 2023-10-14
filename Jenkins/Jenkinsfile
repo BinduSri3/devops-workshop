@@ -19,11 +19,11 @@ environment {
         stage("test"){
             steps{
                 echo "----------- unit test started ----------"
-                sh 'mvn surefire-report:report'
+                sh 'mvn surefire-report:report'                
                  echo "----------- unit test Complted ----------"
             }
         }
-
+//https://docs.sonarsource.com/sonarqube/10.1/analyzing-source-code/scanners/jenkins-extension-sonarqube/
     stage('SonarQube analysis') {
     environment {
       scannerHome = tool 'valaxy-sonar-scanner'
