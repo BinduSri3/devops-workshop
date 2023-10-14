@@ -2,7 +2,7 @@ def registry = 'https://valaxy05.jfrog.io'
 pipeline {
     agent {
         node {
-            label 'maven'    -> another instance node name
+            label 'maven'    -> another instance node name configured in jenkins
         }
     }
 environment {
