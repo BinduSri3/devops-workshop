@@ -21,7 +21,7 @@
    helm repo list
    helm repo add stable https://charts.helm.sh/stable
    helm repo update
-   helm search repo <helm-chart>
+   helm search repo <helm-chart>   or hel search repo jenkins/mysql/prometheus
    helm search repo stable
    ```
 
