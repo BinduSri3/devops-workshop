@@ -1,4 +1,4 @@
-## Integrate build server with Kubernetes cluster 
+## Integrate build (slave jenkins) server with Kubernetes cluster 
 
 1. Setup kubectl   
    ```sh 
